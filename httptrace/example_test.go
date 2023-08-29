@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/paymentlogs/fhttp/httptrace"
+	"github.com/voromade/fhttp/httptrace"
 )
 
 func Example() {

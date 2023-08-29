@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/paymentlogs/fhttp/internal"
+	"github.com/voromade/fhttp/internal"
 )
 
 type respTest struct {

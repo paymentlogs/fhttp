@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"sync"
 
-	http "github.com/paymentlogs/fhttp"
+	http "github.com/voromade/fhttp"
 )
 
 // hello world, the web server

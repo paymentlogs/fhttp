@@ -11,8 +11,8 @@ import (
 	"log"
 	"testing"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/http2"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/http2"
 )
 
 func TestSettingsAckSwallowWriter(t *testing.T) {

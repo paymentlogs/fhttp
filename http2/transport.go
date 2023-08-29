@@ -27,12 +27,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptrace"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptrace"
 
-	"github.com/paymentlogs/fhttp/http2/hpack"
+	"github.com/voromade/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

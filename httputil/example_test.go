@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/httputil"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/httputil"
 )
 
 func ExampleDumpRequest() {

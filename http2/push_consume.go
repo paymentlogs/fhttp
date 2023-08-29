@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/url"
 
-	http "github.com/paymentlogs/fhttp"
+	http "github.com/voromade/fhttp"
 )
 
 var (

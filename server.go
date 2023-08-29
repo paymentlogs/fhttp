@@ -29,7 +29,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
 	"golang.org/x/net/http/httpguts"
 )

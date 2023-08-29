@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/http2/hpack"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/http2/hpack"
 )
 
 func TestPushPromiseHeadersToHTTPRequest(t *testing.T) {

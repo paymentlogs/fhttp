@@ -13,9 +13,9 @@ import (
 	"reflect"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	"github.com/paymentlogs/fhttp/internal/nettrace"
+	"github.com/voromade/fhttp/internal/nettrace"
 )
 
 // unique type to prevent assignment.

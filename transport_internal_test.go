@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	"github.com/paymentlogs/fhttp/internal"
+	"github.com/voromade/fhttp/internal"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

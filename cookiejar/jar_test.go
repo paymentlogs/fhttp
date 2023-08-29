@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/paymentlogs/fhttp"
+	http "github.com/voromade/fhttp"
 )
 
 // tNow is the synthetic current time used as now during testing.

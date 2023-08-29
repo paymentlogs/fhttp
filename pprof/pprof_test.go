@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/internal/profile"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/internal/profile"
 )
 
 // TestDescriptions checks that the profile names under runtime/pprof package

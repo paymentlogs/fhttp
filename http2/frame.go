@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/paymentlogs/fhttp/http2/hpack"
+	"github.com/voromade/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

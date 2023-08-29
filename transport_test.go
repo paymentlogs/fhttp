@@ -37,14 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/httptrace"
-	"github.com/paymentlogs/fhttp/httputil"
-	"github.com/paymentlogs/fhttp/internal"
-	"github.com/paymentlogs/fhttp/internal/nettrace"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/httptrace"
+	"github.com/voromade/fhttp/httputil"
+	"github.com/voromade/fhttp/internal"
+	"github.com/voromade/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )
@@ -3429,6 +3429,7 @@ func (c writerFuncConn) Write(p []byte) (n int, err error) { return c.write(p) }
 //   - we reused a keep-alive connection
 //   - we haven't yet received any header data
 //   - either we wrote no bytes to the server, or the request is idempotent
+//
 // This automatically prevents an infinite resend loop because we'll run out of
 // the cached keep-alive connections eventually.
 func TestRetryRequestsOnError(t *testing.T) {

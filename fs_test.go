@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
 )
 
 const (

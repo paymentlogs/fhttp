@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/paymentlogs/fhttp"
+	http "github.com/voromade/fhttp"
 )
 
 func TestServer_Push_Success(t *testing.T) {

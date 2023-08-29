@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/cookiejar"
-	"github.com/paymentlogs/fhttp/httptest"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/cookiejar"
+	"github.com/voromade/fhttp/httptest"
 )
 
 func ExampleNew() {

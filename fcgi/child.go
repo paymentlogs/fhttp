@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/cgi"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/cgi"
 )
 
 // request holds the state for an in-progress request. As soon as it's complete,

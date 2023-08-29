@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paymentlogs/fhttp/internal/race"
+	"github.com/voromade/fhttp/internal/race"
 )
 
 var headerWriteTests = []struct {

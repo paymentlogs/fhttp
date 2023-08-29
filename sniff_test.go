@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/paymentlogs/fhttp"
+	. "github.com/voromade/fhttp"
 )
 
 var sniffTests = []struct {

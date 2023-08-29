@@ -35,13 +35,13 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/httputil"
-	"github.com/paymentlogs/fhttp/internal"
-	"github.com/paymentlogs/fhttp/internal/testenv"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/httputil"
+	"github.com/voromade/fhttp/internal"
+	"github.com/voromade/fhttp/internal/testenv"
 )
 
 type dummyAddr string
@@ -5028,10 +5028,11 @@ func benchmarkClientServerParallel(b *testing.B, parallelism int, useTLS bool) {
 // The client code runs in a subprocess.
 //
 // For use like:
-//   $ go test -c
-//   $ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
-//   $ go tool pprof http.test http.prof
-//   (pprof) web
+//
+//	$ go test -c
+//	$ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
+//	$ go tool pprof http.test http.prof
+//	(pprof) web
 func BenchmarkServer(b *testing.B) {
 	b.ReportAllocs()
 	// Child process mode;

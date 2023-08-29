@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/http2/hpack"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/httptrace"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/http2/hpack"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/httptrace"
 )
 
 var (

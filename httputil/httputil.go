@@ -9,7 +9,7 @@ package httputil
 import (
 	"io"
 
-	"github.com/paymentlogs/fhttp/internal"
+	"github.com/voromade/fhttp/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

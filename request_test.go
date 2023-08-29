@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
 )
 
 func TestQuery(t *testing.T) {

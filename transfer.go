@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paymentlogs/fhttp/httptrace"
-	"github.com/paymentlogs/fhttp/internal"
+	"github.com/voromade/fhttp/httptrace"
+	"github.com/voromade/fhttp/internal"
 
 	"golang.org/x/net/http/httpguts"
 )
@@ -196,10 +196,11 @@ func (t *transferWriter) shouldSendChunkedRequestBody() bool {
 // headers before the pipe is fed data), we need to be careful and bound how
 // long we wait for it. This delay will only affect users if all the following
 // are true:
-//   * the request body blocks
-//   * the content length is not set (or set to -1)
-//   * the method doesn't usually have a body (GET, HEAD, DELETE, ...)
-//   * there is no transfer-encoding=chunked already set.
+//   - the request body blocks
+//   - the content length is not set (or set to -1)
+//   - the method doesn't usually have a body (GET, HEAD, DELETE, ...)
+//   - there is no transfer-encoding=chunked already set.
+//
 // In other words, this delay will not normally affect anybody, and there
 // are workarounds if it does.
 func (t *transferWriter) probeRequestBody() {

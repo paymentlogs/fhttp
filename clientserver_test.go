@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/httputil"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/httputil"
 )
 
 type clientServerTest struct {

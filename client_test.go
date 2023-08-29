@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	. "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/cookiejar"
-	"github.com/paymentlogs/fhttp/httptest"
+	. "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/cookiejar"
+	"github.com/voromade/fhttp/httptest"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/paymentlogs/fhttp/httptrace"
+	"github.com/voromade/fhttp/httptrace"
 )
 
 // A Header represents the Key-value pairs in an HTTP header.

@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/http2"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/http2"
 )
 
 // Basic http test with Header Order + enable push

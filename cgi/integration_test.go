@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/paymentlogs/fhttp"
-	"github.com/paymentlogs/fhttp/httptest"
-	"github.com/paymentlogs/fhttp/internal/testenv"
+	http "github.com/voromade/fhttp"
+	"github.com/voromade/fhttp/httptest"
+	"github.com/voromade/fhttp/internal/testenv"
 )
 
 // This test is a CGI host (testing host.go) that runs its own binary

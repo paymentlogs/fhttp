@@ -36,10 +36,10 @@ import (
 	"strconv"
 	"strings"
 
-	tls "github.com/paymentlogs/utls"
+	tls "github.com/voromade/utls"
 
-	"github.com/paymentlogs/fhttp/http2"
-	"github.com/paymentlogs/fhttp/http2/hpack"
+	"github.com/voromade/fhttp/http2"
+	"github.com/voromade/fhttp/http2/hpack"
 	"golang.org/x/term"
 )
 
